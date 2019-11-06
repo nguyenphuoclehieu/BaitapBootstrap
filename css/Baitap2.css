@@ -1,0 +1,29 @@
+.blockquote{
+	margin-top:-1rem;
+	padding:0;
+	position: relative;
+	padding-left: 9rem;
+	text-indent: 1.5em;
+
+}
+.blockquote:before{
+	position: absolute;
+    font-family: sans-serif;
+    content: "\201C";
+    font-size: 3rem;
+    top: 2.2rem;
+    left: 8rem;
+    color: #020101;
+    font-weight: bold;
+}
+.blockquote-footer cite{
+	font-size: 1rem;
+	
+}
+.blockquote  .ima img{
+    width: 6rem;
+    height: 6rem;
+    margin-left: -9rem;
+    margin-bottom: -9rem;
+	border-radius: 50%;
+}

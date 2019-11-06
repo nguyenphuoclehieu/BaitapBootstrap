@@ -1,0 +1,48 @@
+.blockquote{
+  position: relative;
+  padding-left: 3rem;
+  border-radius: 2rem;
+  background: #3CE3D5;
+}
+.blockquote hr{
+      width: 63rem;
+    float: left;
+    background: white;
+}
+.blockquote:before{
+    position: absolute;
+    font-family: serif;
+    content: "\201C";
+    font-size: 10rem;
+    top: -3.5rem;
+    left: 2.5rem;
+    color: #f7fdf5;
+    font-weight: bold;
+}
+.content{
+  font-size: 2rem;
+  padding-left: 0rem;
+  padding-top: 5rem;
+}
+.fa{ 
+  float: right;
+  display: block;
+  margin: -55px 100px 0 0;
+}
+.Abarham{
+  padding-bottom: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.vungnho{
+   margin: -63px 150px 0px 0px;
+    display: block;
+    padding-bottom: -14rem;
+    float: right;
+    text-align: center;
+    width: 53px;
+    height: 34px;
+    background: gray;
+    border-radius: 1rem;
+    color: white;
+  }

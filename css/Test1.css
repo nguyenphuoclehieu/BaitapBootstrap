@@ -1,0 +1,23 @@
+.blockquote{
+	position: relative;
+	padding-left: 3rem;
+}
+.blockquote:before{
+	position: absolute;
+	font-family: serif;
+	content: "\201C";
+	font-size: 4rem;
+	top: -0.5rem;
+	left: 0.5rem;
+	color: #83C275;
+	font-weight: bold;
+}
+.font h6{
+	font-size: 1.1rem;
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+}
+/*.blockquote p{
+	padding-left: 2rem;
+}*/text-uppercase
